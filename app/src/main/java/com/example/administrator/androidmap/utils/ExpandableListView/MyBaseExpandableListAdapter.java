@@ -16,6 +16,7 @@ import com.example.administrator.androidmap.vo.TopicMapVO;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.example.administrator.androidmap.R.id.vDiv;
 /**
  * Created by Jay on 2015/9/25 0025.
  */
@@ -137,7 +138,8 @@ public class MyBaseExpandableListAdapter extends BaseExpandableListAdapter {
                 }
             }
         });
-        mhomeAcitvity.loadImage(entry.getLogoUrl(), ivTopicMapLogo);
+        //load image
+        //mhomeAcitvity.loadImage(entry.getLogoUrl(), ivTopicMapLogo);
         tvTopicMapName.setText(entry.getName());
 
         return convertView;
