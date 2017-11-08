@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="color_orange_light">#fd8709</color>
+    <color name="color_orange_dark">#bf6606</color>
+    <color name="color_grey">#c1c1c1</color>
+    <color name="color_sport_bg">#1f6eff</color>
+    <color name="color_sport_translate">#4d000000</color>
+    <color name="color_sport_white_translate">#d9ffffff</color>
+    <color name="color_sport_end">#fc661f</color>
+    <color name="color_sport_pause">#0a60ff</color>
+    <color name="color_progress_play">#0a60ff</color>
+    <color name="color_progress_stop">#fb114b</color>
 </resources>

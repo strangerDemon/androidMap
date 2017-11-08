@@ -1,3 +1,158 @@
 <resources>
-    <string name="app_name">androidMap</string>
+    <string name="app_name">天地图·厦门</string>
+
+    <string name="titleMeasureDistance">点击选择测距点</string>
+    <string name="titleMeasureAcreage">点击选择测面点</string>
+    <string name="titlePlot">标绘</string>
+    <string name="titleTopic">专题图</string>
+    <string name="titleSelectPlace">拖动地图选点</string>
+
+    <string name="btnClear">清空</string>
+    <string name="btnLook">查看</string>
+    <string name="btnList">列表</string>
+    <string name="btnSave">保存</string>
+    <string name="btnDelete">删除</string>
+    <string name="btnComplete">完成</string>
+    <string name="btnReset">重置</string>
+    <string name="btnConfirm">确定</string>
+    <string name="btnCancel">取消</string>
+    <string name="btnSearch">搜索</string>
+
+    <string name="txtName">名称</string>
+    <string name="txtDescription">备注</string>
+    <string name="txtEmptyPlotRecords">暂无记录，快去添加标绘吧！</string>
+    <string name="txtEmptyData">暂无数据！</string>
+
+    <string name="hintPlotName">填写位置名称，最长50个字</string>
+    <string name="hintPlotDescription">最长300个字</string>
+    <string name="hintSearch">搜地点、搜路线</string>
+    <string name="hintRouteFrom">输入起点</string>
+    <string name="hintRouteTo">输入终点</string>
+
+    <string name="txtRoute">路线</string>
+    <string name="txtMeasure">测量</string>
+    <string name="txtMeasureDistance">测距离</string>
+    <string name="txtMeasureAcreage">测面积</string>
+    <string name="txtPlot">标绘</string>
+    <string name="txtMore">更多</string>
+    <string name="txtVector">矢量</string>
+    <string name="txtImage">影像</string>
+    <string name="txtTerrain">晕渲</string>
+    <string name="txtPlotPoint">点标绘</string>
+    <string name="txtPlotPolyline">线标绘</string>
+    <string name="txtPlotPolygon">面标绘</string>
+    <string name="txtPlotText">文字标绘</string>
+    <string name="myPlot">我的标绘</string>
+    <string name="txtClearSearchHistory">清空搜索历史</string>
+    <string name="txtLookSearchResult">查看搜索结果</string>
+    <string name="txtSearchAround">搜周边</string>
+    <string name="txtGetToHere">到这去</string>
+    <string name="txtStationId">站点编号</string>
+    <string name="txtStationName">站点名称</string>
+    <string name="txtPicture">图片</string>
+    <string name="txtRouteFrom">从</string>
+    <string name="txtRouteTo">到</string>
+    <string name="txtRouteMyLocation">我的位置</string>
+    <string name="txtRouteSelectPoint">地图选点</string>
+    <string name="txtRouteRTN">查看返程</string>
+
+    <string name="fillTxtLimit">还允许输入 %1$s 个字</string>
+    <string name="fillTxtSearchAround">在“%1$s”周边搜索</string>
+    <string name="fillTxtSearchTopic">在“%1$s”中搜索</string>
+    <!--更多-->
+    <string name="txtSport">运动</string>
+    <string name="txtAlbum">图册</string>
+    <string name="txtOffLineMap">离线地图</string>
+    <string name="txtMapError">地图纠错</string>
+    <string name="titleMapError">纠错</string>
+    <string name="txtFeedback">意见反馈</string>
+    <string name="txtFeedbackFailHint">文件不是图片类型，上传失败！</string>
+    <string name="txtAbout">关于</string>
+    <string name="hintFeedback">请输入您的意见或建议（300字以内）</string>
+    <string name="phone">电话</string>
+    <string name="hintPhone">请留下您的联系电话</string>
+    <string name="qq">Q        Q</string>
+    <string name="txtPlaceError">地点纠错</string>
+    <string name="txtPlaceReport">地点上报</string>
+    <string name="txtErrorType">错误类型</string>
+    <string name="txtPlaceName">地点名称</string>
+    <string name="txtErrorSite">错误位置</string>
+    <string name="txtPlace">地点位置</string>
+    <string name="hintErrorType">请选择错误类型</string>
+    <string name="hintSiteName">填写地点名称</string>
+    <string name="hintSitelatede">点击在地图上选择位置</string>
+    <string name="hintErrorRemark">请详细描述您发现的问题（300字以内）</string>
+    <string name="hintContractPhone">请留下您的联系电话</string>
+    <string name="txtContractPhone">联系电话</string>
+    <string name="txtContractQQ">联系Q        Q</string>
+
+    <!--登录-->
+    <string name="titleLogin">登录</string>
+    <string name="txtPassWordLogin">账号密码登录</string>
+    <string name="txtPhoneLogin">手机快捷登录</string>
+    <string name="txtAccount">账号</string>
+    <string name="txtPhoneNumber">手机号</string>
+    <string name="txtPassWord">密码</string>
+    <string name="txtVerifyCode">验证码</string>
+    <string name="txtGetVerifyCode">获取验证码</string>
+    <string name="hintAccount">请输入账号</string>
+    <string name="hintPhoneNumber">请输入11位的手机号</string>
+    <string name="hintPassWord">请输入密码</string>
+    <string name="hintVerifyCode">请输入验证码</string>
+    <string name="txtForgetPassWord">忘记密码</string>
+    <string name="txtRegistered">账号注册</string>
+
+    <!--忘记密码/注册-->
+    <string name="titleRegister">注册</string>
+    <string name="txtNickName">昵称</string>
+    <string name="txtDoublePassWord">重复密码</string>
+    <string name="txtAgree">我已经阅读并同意</string>
+    <string name="txtTermOfService">《天地图厦门服务条款》</string>
+    <string name="hintVerifyCode6">输入6位短信验证码</string>
+    <string name="hintPassWord6">设置6-16位密码</string>
+    <string name="hintDoublePassWord">与密码一样</string>
+    <string name="hintNickName">输入昵称</string>
+
+    <!--关于-->
+    <string name="titleAbout">关于</string>
+    <string name="titleWebSite">官方网站</string>
+    <string name="titleScore">欢迎评分</string>
+    <string name="titleTermsOfService">服务条款</string>
+    <string name="titlePrivacy">版权声明</string>
+    <string name="titleAboutHeader">天地图厦门</string>
+    <string name="titleCopyright">©2016  厦门市测绘与基础地理信息中心  版权所有</string>
+    <string name="titleTechnicalSupport">福建省地质测绘院（厦门分院） 技术支持</string>
+
+    <!--编辑个人信息-->
+    <string name="titlePersonalInfo">个人信息</string>
+    <string name="txtUserPhoto">头像</string>
+    <string name="txtGender">性别</string>
+    <string name="txtChoose">请选择</string>
+    <string name="txtModifyPassWord">修改密码</string>
+    <string name="txtLogout">退出登录</string>
+    <string name="titleNickName">修改昵称</string>
+    <string name="txtMan">男</string>
+    <string name="txtWoman">女</string>
+    <string name="txtCamera">拍照</string>
+    <string name="txtFromAlbum">从手机相册选择</string>
+
+    <!--修改密码-->
+    <string name="titleModifyPassWord">修改密码</string>
+    <string name="txtOldPassWord">原密码</string>
+    <string name="txtNewPassWord">新密码</string>
+    <string name="hintOldPassWord">请输入现有的密码</string>
+    <string name="hintNewPassWord">请输入6-16位密码</string>
+    <string name="hintNewDoublePassWord">与新密码一致</string>
+    <!--修改手机号-->
+    <string name="titleModifyPhoneNumber">修改手机号</string>
+    <string name="txtOldPhoneNumber">原手机号</string>
+    <string name="txtNewPhoneNumber">新手机号</string>
+    <string name="hintOldPhoneNumber">请输入现有的手机号</string>
+    <string name="hintNewPhoneNumber">请输入11位的新手机号</string>
+
+    <!--运动-->
+    <string name="title_ride">骑行</string>
+    <string name="title_run">跑步</string>
+    <string name="title_walk">步行</string>
+    <string name="txt_start">开始</string>
 </resources>

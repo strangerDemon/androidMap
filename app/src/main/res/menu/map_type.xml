@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/vector"
+        android:title="矢量地图"/>
+    <item
+        android:id="@+id/image"
+        android:title="影像地图"/>
+    <item
+        android:id="@+id/terrain"
+        android:title="晕渲地图"/>
+    <item
+        android:id="@+id/image_2012"
+        android:title="影像地图-2012厦门"/>
+    <item
+        android:id="@+id/image_2013"
+        android:title="影像地图-2013厦门"/>
+    <item
+        android:id="@+id/image_2014"
+        android:title="影像地图-2014厦门"/>
+    <item
+        android:id="@+id/measure_length"
+        android:title="长度测量"/>
+    <item
+        android:id="@+id/measure_area"
+        android:title="面积测量"/>
+    <item
+        android:id="@+id/plotting_point"
+        android:title="点标绘"/>
+    <item
+        android:id="@+id/plotting_line"
+        android:title="线标绘"/>
+    <item
+        android:id="@+id/plotting_area"
+        android:title="面标绘"/>
+    <item
+        android:id="@+id/plotting_text"
+        android:title="文字标绘"/>
+
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="more_margin_top">32dp</dimen>
+    <dimen name="more_margin_left">42dp</dimen>
+    <dimen name="more_padding">10dp</dimen>
+    <integer name="marker_font_size">30</integer>
+    <integer name="marker_icon_size">80</integer>
+    <integer name="marker_offset">15</integer>
+    <dimen name="layout_width_togglebutton">32dp</dimen>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <integer name="marker_font_size">13</integer>
+    <integer name="marker_icon_size">50</integer>
+</resources>
