@@ -8,35 +8,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
-        android:paddingLeft="@dimen/spacing_double"
-        android:paddingRight="@dimen/spacing_double"
-        android:paddingTop="@dimen/spacing_normal"
-        android:paddingBottom="@dimen/spacing_normal"
         android:orientation="horizontal">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_weight="1"
-            android:background="@drawable/bg_common_translate_mask_rect"
             android:gravity="center_vertical"
             android:id="@+id/layout_topic"
             >
             <ImageView
                 android:id="@+id/ivTopicMapLogo"
-                android:layout_width="@dimen/common_small_logo_size"
-                android:layout_height="@dimen/common_small_logo_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:src="@drawable/no_image" />
 
             <TextView
                 android:id="@+id/tvTopicMapName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:paddingLeft="@dimen/spacing_double"
-                android:paddingRight="@dimen/spacing_double"
-                android:textColor="@color/system_font_color_light"
-                android:textSize="@dimen/fontsize_medium" />
+                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -59,8 +50,6 @@
     </LinearLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="@dimen/common_div_size"
-        android:layout_marginLeft="@dimen/spacing_double"
-        android:background="@color/system_view_color_line"
+        android:layout_height="wrap_content"
         android:id="@+id/vDiv"/>
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.besprout.mango.utils;
+package com.example.administrator.androidmap.utils;
 
 import android.text.Editable;
 

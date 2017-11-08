@@ -1,6 +1,6 @@
 package com.example.administrator.androidmap.vo;
 
-import com.besprout.mango.utils.StringUtils;
+import com.example.administrator.androidmap.utils.StringUtils;
 
 import net.minidev.json.JSONObject;
 

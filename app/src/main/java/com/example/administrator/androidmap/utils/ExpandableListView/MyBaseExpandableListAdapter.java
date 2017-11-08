@@ -10,11 +10,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.administrator.androidmap.MainActivity;
 import com.example.administrator.androidmap.vo.TopicMapVO;
 
 import java.util.ArrayList;
 import java.util.List;
-
 
 /**
  * Created by Jay on 2015/9/25 0025.
@@ -25,9 +25,9 @@ public class MyBaseExpandableListAdapter extends BaseExpandableListAdapter {
     private ArrayList<ArrayList<Item>> iData;
     private Context mContext;
     private List<TopicMapVO> mTempSelectedTopicMapList = new ArrayList<TopicMapVO>();
-    private HomeActivity mhomeAcitvity;
+    private MainActivity mhomeAcitvity;
 
-    public MyBaseExpandableListAdapter(ArrayList<Group> gData, ArrayList<ArrayList<Item>> iData, Context mContext, HomeActivity mhomeAcitvity) {
+    public MyBaseExpandableListAdapter(ArrayList<Group> gData, ArrayList<ArrayList<Item>> iData, Context mContext, MainActivity mhomeAcitvity) {
         this.gData = gData;
         this.iData = iData;
         this.mContext = mContext;

@@ -1,7 +1,5 @@
 package com.example.administrator.androidmap.vo;
 
-import com.besprout.android.base.vo.BaseVo;
-
 import net.minidev.json.JSONArray;
 import net.minidev.json.JSONObject;
 

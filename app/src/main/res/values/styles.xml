@@ -30,7 +30,6 @@
 
         <item name="colorPrimary">#FFEAEAEA</item>
         <item name="colorPrimaryDark">#000000</item>
-        <item name="colorAccent">@color/system_font_color_pure</item>
 
         <!--To change the popup menu and app text color  -->
         <!--<item name="android:textColor">@color/system_font_color_pure</item>-->
@@ -46,28 +45,13 @@
 
     <style name="style_btn_send_message">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">@dimen/spacing_three</item>
-        <item name="android:background">@drawable/bg_send_message_shape</item>
-        <item name="android:textColor">@color/color_send_message_selector</item>
-        <item name="android:textSize">@dimen/fontsize_medium</item>
         <item name="android:text">@string/txtGetVerifyCode</item>
-        <item name="android:paddingRight">@dimen/spacing_micro</item>
-        <item name="android:paddingLeft">@dimen/spacing_micro</item>
-        <item name="android:layout_marginRight">@dimen/spacing_normal</item>
     </style>
 
     <style name="style_btn_blue">
-        <item name="android:textColor">@color/color_send_message_selector</item>
-        <item name="android:textSize">@dimen/fontsize_medium</item>
-        <item name="android:background">@drawable/bg_common_blue_rect_btn</item>
-        <item name="android:padding">@dimen/spacing_normal</item>
-        <item name="android:layout_marginLeft">@dimen/spacing_normal</item>
-        <item name="android:layout_marginRight">@dimen/spacing_normal</item>
     </style>
     <style name="style_btn_hellow_white">
-        <item name="android:padding">@dimen/spacing_normal</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:background">@drawable/bg_round_white_rect_hellow</item>
     </style>
     <style name="style_toggle_button">
         <item name="android:layout_width">@dimen/layout_width_togglebutton</item>
@@ -75,8 +59,5 @@
         <item name="android:text">""</item>
         <item name="android:textOn">""</item>
         <item name="android:textOff">""</item>
-        <item name="android:background">@color/transparent</item>
-        <item name="android:button">@drawable/toggle_button</item>
-        <item name="android:layout_marginRight">@dimen/spacing_normal</item>
     </style>
 </resources>
